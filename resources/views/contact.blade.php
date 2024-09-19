@@ -6,22 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <title>Halaman contact</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
 <body>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-    <a href="/contact">Contact</a>
+    <div class="min-h-full">
+        <x-navbar></x-navbar>
+        
+        <x-header>Contact</x-header>
+  
+        <main>
+          <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+            <h3>Email</h3>
+            <p>xxxxxxxxxxxx@x.com</p>
 
-    <h1>Halaman Contact</h1>
-
-    <h3>Email</h3>
-    <p>xxxxxxxxxxxx@x.com</p>
-
-    <h3>Instagram</h3>
-    <p>xxxxx_xxxxxx</p>
-
+            <h3>Instagram</h3>
+            <p>xxxxx_xxxxxx</p>
+          </div>
+        </main>
+    </div>
 </body>
 
 </html>
